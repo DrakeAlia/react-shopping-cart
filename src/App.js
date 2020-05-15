@@ -17,7 +17,7 @@ function App() {
 		// add the given item to the cart
 		setCart([ ...cart, item ]);
 	};
-
+// created a new function for reomveItems
 	return (
 		<div className="App">
 			<ProductContext.Provider value={{ products, addItem }}>
